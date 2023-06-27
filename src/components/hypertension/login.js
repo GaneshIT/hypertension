@@ -1,3 +1,4 @@
+import hyperlogo from '../../assets/images/hyper-logo.png';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useAuth } from "../../AuthContext";
@@ -13,7 +14,13 @@ export default function Login(){
       };
 
     return(
-        <div>
+        <div  className="container" style={{textAlign:'center'}}>
+            <div className='row'>
+                <div className='col-md-12'>
+                    <img src={hyperlogo}/>
+                    
+                </div>
+            </div>
             <h2>HYPERTENSION REGISTRY OF INDIA</h2>
             <h2>Welcome back!</h2>
             <h3>Don't have an account?<span><Link to={"/register"}>Sign Up</Link></span></h3>

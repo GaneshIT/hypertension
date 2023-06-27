@@ -1,0 +1,11 @@
+{
+    "doctors":[
+        {"id":1,"name":"Ganesh","location":"Bangalore"},
+        {"id":2,"name":"Raj","location":"Bangalore"},
+        {"id":3,"name":"Mahi","location":"Chennai"}
+    ]
+    
+  
+
+
+}
